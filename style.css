@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #fdfaf5;
+    color: #4a3b2f;
+}
+
+/* HEADER */
+.header {
+    background: #fff4e6;
+    border-bottom: 1px solid #eee;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #c56a18;
+}
+
+/* NAV */
+.nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #6a4a2f;
+    font-size: 15px;
+}
+
+.nav .active {
+    color: #c56a18;
+    font-weight: 600;
+}
+
+/* CTA BUTTON */
+.cta-btn {
+    background: #f1b36a;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* CONTACT */
+.contact-section {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #c56a18;
+}
+
+.contact-box {
+    display: flex;
+    gap: 30px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form {
+    width: 60%;
+}
+
+.form input,
+.form select,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.form button {
+    background: #e6a55d;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* INFO */
+.info {
+    width: 40%;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+    background: #e6a55d;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}

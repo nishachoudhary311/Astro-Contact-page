@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Astro Contact page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header">
+    <div class="container header-flex">
+
+        <div class="logo">Spiritual Path</div>
+
+         <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Consultation</a>
+            <a href="#">Reports</a>
+            <a href="#">Blog</a>
+            <a href="#">About Us</a>
+            <a href="#" class="active">Contact Us</a>
+        </nav>
+
+
+    </div>
+</header>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact-section" id="contact">
+    <div class="container">
+
+        <h2 class="section-title">Connect With Us</h2>
+
+        <div class="contact-box">
+
+            <form id="contactForm" class="form">
+                <input type="text" id="name" placeholder="Your Name *">
+                <input type="email" id="email" placeholder="Email Address *">
+
+                <select id="subject">
+                    <option value="">Select Purpose *</option>
+                    <option>Spiritual Guidance</option>
+                    <option>Puja</option>
+                    <option>Consultation</option>
+                </select>
+
+                <textarea id="message" placeholder="Your Message *"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="info">
+                <p><strong>Email</strong><br>contact@spiritualpath.com</p>
+                <p><strong>Phone</strong><br>+91 90000 00000</p>
+                <p><strong>Location</strong><br>Jaipur, Rajasthan</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <p>© 2026 Spiritual Path</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
